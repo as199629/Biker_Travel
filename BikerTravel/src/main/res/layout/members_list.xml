@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/circleImg_member"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/m_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/circleImg_member"
+            android:text="@string/join_memberlist_text1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/member_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/m_n"
+            android:text="TextView"
+            android:textColor="@color/Top_bar_black"
+            android:textSize="@dimen/textsize"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/m_n2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m_n"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/circleImg_member"
+            android:text="@string/join_memberlist_text2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/member_reward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/member_name"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/m_n"
+            android:text="TextView"
+            android:textColor="@color/Top_bar_black"
+            android:textSize="@dimen/textsize"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/m_n3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m_n2"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/circleImg_member"
+            android:text="@string/join_memberlist_text3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/member_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/member_reward"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/m_n3"
+            android:text="TextView"
+            android:textColor="@color/Top_bar_black"
+            android:textSize="@dimen/textsize"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+    </TableRow>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/Silver" />
+
+</LinearLayout>

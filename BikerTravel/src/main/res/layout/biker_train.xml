@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/train_r001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:padding="@dimen/pa10"
+    tools:context=".Biker_train">
+
+    <Button
+        android:id="@+id/train_b002"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/train_t001"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/btn_ok"
+        android:gravity="center"
+        android:text="@string/train_t011"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/train_t001"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:background="@drawable/bg_btn_lost_window_focused"
+        android:gravity="center"
+        android:text="@string/train_t001"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLay"
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:id="@+id/train_t002"
+                android:layout_width="106dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="143dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/train_t003"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/train_p001"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/train_t002"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Teal"
+                android:max="100"
+                android:progress="90"
+                android:progressTint="#B996F0B8"
+                android:secondaryProgress="0"
+                android:secondaryProgressTint="#B996F0B8" />
+
+            <TextView
+                android:id="@+id/train_t003"
+                android:layout_width="106dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/train_p001"
+                android:layout_alignStart="@+id/train_t002"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/train_t004"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/train_p002"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/train_t003"
+                android:layout_alignStart="@+id/train_p001"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Teal"
+                android:max="100"
+                android:progress="90"
+                android:progressTint="#B996F0B8"
+                android:secondaryProgress="0"
+                android:secondaryProgressTint="#B996F0B8" />
+
+            <TextView
+                android:id="@+id/train_t004"
+                android:layout_width="106dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/train_p002"
+                android:layout_alignStart="@+id/train_t003"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/train_t005"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/train_p003"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/train_t004"
+                android:layout_alignStart="@+id/train_p002"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Teal"
+                android:max="100"
+                android:progress="90"
+                android:progressTint="#B996F0B8"
+                android:secondaryProgress="0"
+                android:secondaryProgressTint="#B996F0B8" />
+
+            <TextView
+                android:id="@+id/train_t005"
+                android:layout_width="106dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/train_p003"
+                android:layout_alignStart="@+id/train_t004"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/train_t006"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/train_p004"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/train_t005"
+                android:layout_alignStart="@+id/train_p003"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Teal"
+                android:max="100"
+                android:progress="60"
+                android:progressTint="#B996F0B8"
+                android:secondaryProgressTint="#B996F0B8" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/myname23"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

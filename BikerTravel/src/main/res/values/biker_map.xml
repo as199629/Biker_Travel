@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biker_map_plan_top">路線規劃</string>
+    <string name="biker_map_start">出發點</string>
+    <string name="biker_map_goal">目的地</string>
+    <string name="biker_map_back">↶返回</string>
+    <string name="biker_map_distance">總距離</string>
+    <string name="biker_map_check">✔確認</string>
+
+
+    <string name="biker_map_top">導航</string>
+    <string name="biker_map_show">顯示</string>
+    <string name="biker_map_hide">隱藏</string>
+    <string name="biker_map_stop">||</string>
+    <string name="biker_map_watch">⏱</string>
+    <string name="biker_map_plan">✎</string>
+    <string name="name_22">22 惠珺   </string>
+    <string name="biker_map_nodata">查無資料</string>
+    <string name="biker_map_dataClean">歷史紀錄已清空</string>
+
+    <string-array name="biker_map_arr">
+        <item>歷史紀錄</item>
+    </string-array>
+
+
+    <string name="title_activity_maps">當前位置</string>
+    <string name="default_info_title">預設位置</string>
+    <string name="default_info_snippet">找不到位置，請確認存取位置權限</string>
+    <string name="option_get_place">取得位置</string>
+    <string name="pick_place">選擇地點</string>
+
+    <string name="m_altitle_map">清空所有資料</string>
+    <string name="m_message_map">資料刪除無法復原\n確定將歷史紀錄刪除嗎？</string>
+    <string name="biker_map_dataClean_cancel">放棄刪除資料</string>
+    <string name="biker_map_dialog_title">歷史紀錄</string>
+
+    <!--20210125S-->
+    <string name="prompt_select_location">請選擇地點</string>
+    <string name="prompt_select_map_type">請選擇地圖模式</string>
+    <string name="item01">切換圖示</string>
+    <string name="showlocid">顯示目前位置</string>
+    <string name="msg">訊息</string>
+    <string name="item02">清除標記</string>
+    <string name="map_not_ready">Map 設置未完成</string>
+
+    <string name="zoom_buttons">zoom放大縮小</string>
+    <string name="compass">Compass 指北針</string>
+    <string name="mylocation_button">我的位置 Button</string>
+    <string name="mylocation_layer">我的位置 Layout</string>
+    <string name="scroll">Scroll Gestures 手勢</string>
+    <string name="zoom_gestures">Zoom Gestures 手勢</string>
+    <string name="tilt">Tilt Gestures 手勢</string>
+    <string name="rotate">Rotate Gestures 手勢</string>
+    <string name="CheckBox">Control按鈕設定</string>
+    <string name="descr">圖片</string>
+    <!--20210125O-->
+
+    <!--    20210225adds Control按鈕設定 軌跡圖 導航-->
+    <string name="m_traceclear">清除軌跡圖</string>
+    <string name="lat">緯度:</string>
+    <string name="lon">\n經度:</string>
+    <string name="menu_trace_on">開啟軌跡圖</string>
+    <string name="menu_trace_off">關閉軌跡圖</string>
+    <string name="select">選擇</string>
+
+    <string name="menu_navon">開啟導航</string>
+    <string name="menu_navoff">導航關閉</string>
+    <!--    20210225addo-->
+
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    tools:context=".Biker_profile">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pa10">
+
+        <TextView
+            android:id="@+id/profile_t017"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_t010"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <EditText
+            android:id="@+id/profile_e001"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edt_focused"
+            android:ems="10"
+            android:hint="@string/profile_t010"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:maxLength="6"
+            android:text="@string/profile_t002"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pa10">
+
+        <TextView
+            android:id="@+id/profile_t019"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:text="@string/profile_t019"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <Spinner
+            android:id="@+id/profile_a04"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:dropDownWidth="wrap_content"
+            android:entries="@array/profile_a02"
+            android:gravity="center" />
+
+        <Spinner
+            android:id="@+id/profile_a05"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/profile_center"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pa10">
+
+        <TextView
+            android:id="@+id/profile_t022"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_t022"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/profile_t018"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edt_focused"
+            android:gravity="center"
+            android:hint="@string/profile_t033"
+            android:importantForAutofill="no"
+            android:maxLength="10"
+            android:text="@string/profile_t033"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pa10">
+
+        <TextView
+            android:id="@+id/profile_t024"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_t024"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <Spinner
+            android:id="@+id/profile_a06"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:entries="@array/profile_a04"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pa10">
+
+        <TextView
+            android:id="@+id/profile_t026"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_t026"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <EditText
+            android:id="@+id/profile_e003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edt_focused"
+            android:gravity="center"
+            android:hint="@string/profile_t055"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="@string/profile_t027"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/profile_t029"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/profile_t029"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/profile_b001"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@color/btn_ok"
+        android:gravity="center"
+        android:text="@string/profile_b001"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profile_t140"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="end"
+        android:text="@string/name_hans"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize"
+        android:visibility="invisible" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item0"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:orderInCategory="10000"
+        android:title="@string/select"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_trace_on"
+                android:icon="@drawable/c0b"
+                android:orderInCategory="200"
+                android:title="@string/menu_trace_on" />
+
+            <item
+                android:id="@+id/menu_trace_off"
+                android:icon="@drawable/c00"
+                android:orderInCategory="300"
+                android:title="@string/menu_trace_off" />
+            <item
+                android:id="@+id/menu_trace_clear"
+                android:icon="@drawable/mclear"
+                android:orderInCategory="400"
+                android:title="@string/m_traceclear" />
+
+
+            <item
+                android:id="@+id/menu_history_on"
+                android:icon="@android:drawable/ic_menu_recent_history"
+                android:orderInCategory="500"
+                android:title="開啟歷史紀錄" />
+
+            <item
+                android:id="@+id/menu_history_off"
+                android:icon="@android:drawable/ic_menu_recent_history"
+                android:orderInCategory="600"
+                android:title="關閉歷史紀錄" />
+            <item
+                android:id="@+id/menu_history_clear"
+                android:icon="@android:drawable/ic_menu_delete"
+                android:orderInCategory="700"
+                android:title="清除歷史紀錄" />
+
+            <item
+                android:id="@+id/menu_memberlist_no"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:orderInCategory="802"
+                android:title="不顯示成員" />
+            <item
+                android:id="@+id/menu_memberlist"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:orderInCategory="800"
+                android:title="顯示團員" />
+            <item
+                android:id="@+id/menu_map_gpx"
+                android:icon="@android:drawable/ic_menu_save"
+                android:orderInCategory="900"
+                android:title="解析gpx" />
+
+            <item
+                android:id="@+id/menu_navon"
+                android:icon="@drawable/nanon"
+                android:orderInCategory="101"
+                android:title="@string/menu_navon" />
+
+            <item
+                android:id="@+id/menu_navoff"
+                android:icon="@drawable/nanoff"
+                android:orderInCategory="102"
+                android:title="@string/menu_navoff" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="9999"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+</menu>

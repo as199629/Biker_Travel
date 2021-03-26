@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:padding="@dimen/padding"
+    tools:context=".Biker_Join">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/now_R1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/join_now_Edit"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/join_now_des"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/btn_ok"
+                android:text="@string/join_now_edit_btn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/join_now_Delete"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/join_now_des"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/join_now_Edit"
+                android:background="@color/btn_ok"
+                android:text="@string/join_now_del_btn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/join_now_add"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/join_now_des"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/join_now_Delete"
+                android:background="@color/btn_ok"
+                android:text="@string/join_now_add_btn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/join_now_member"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/join_now_add"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/join_now_Delete"
+                android:background="@color/btn_ok"
+                android:text="@string/join_now_member_btn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/join_now_Editmode"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/join_now_des"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/btn_ok"
+                android:text="@string/join_now_editmode_btn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/join_now_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:src="@android:mipmap/sym_def_app_icon"
+                app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+            <EditText
+                android:id="@+id/join_now_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_now_t001"
+                android:background="@drawable/button_green1"
+                android:enabled="false"
+                android:gravity="center"
+                android:maxLength="10"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+            <TextView
+                android:id="@+id/join_now_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_now_title"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_now_t002"
+                android:background="@drawable/button_green1"
+                android:gravity="center"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+            <TextView
+                android:id="@+id/join_now_date"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_now_name"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_now_t007"
+                android:background="@drawable/button_green1"
+                android:gravity="center"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+            <EditText
+                android:id="@+id/join_now_address"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/join_now_t004"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_now_t005"
+                android:background="@drawable/button_green1"
+                android:enabled="false"
+                android:gravity="center"
+                android:maxLength="30"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+            <TextView
+                android:id="@+id/join_now_time"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_now_t007"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_now_t004"
+                android:background="@drawable/button_green1"
+                android:gravity="center"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+            <EditText
+                android:id="@+id/join_now_des"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@+id/join_now_t006"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_green1"
+                android:enabled="false"
+                android:gravity="top|left"
+                android:maxLength="60"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+            <TextView
+                android:id="@+id/join_now_t001"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-1dp"
+                android:layout_toEndOf="@+id/join_now_img"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_history_t001"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_now_t002"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_now_t001"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_now_img"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_history_t002"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_now_t003"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_now_img"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_history_t003"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/join_now_people"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_now_t002"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_now_t003"
+                android:background="@drawable/button_green1"
+                android:enabled="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+            <TextView
+                android:id="@+id/join_now_t007"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_now_t002"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_now_people"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_history_t006"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_now_t005"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/join_now_t004"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_history_t004"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_now_t004"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_now_t003"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_new_t006"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_now_t006"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_now_t005"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_history_t005"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_now_editing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="339dp"
+                android:layout_marginEnd="11dp"
+                android:text="@string/join_now_editing"
+                android:textColor="@color/Red"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/now_R2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/join_now_cancel_member"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/members_list"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="27dp"
+            android:background="@color/btn_ok"
+            android:text="@string/join_memberlist_off"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView_members"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:visibility="visible" />
+
+        <ListView
+            android:id="@+id/members_list"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/myname5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="127dp"
+        android:text="@string/myname30"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:visibility="invisible" />
+
+</RelativeLayout>

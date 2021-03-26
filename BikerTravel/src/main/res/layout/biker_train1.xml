@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/train_r002"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:padding="@dimen/pa10">
+
+    <TextView
+        android:id="@+id/train_t006"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:background="@drawable/bg_btn_lost_window_focused"
+        android:gravity="center"
+        android:text="@string/train_t002"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/train_chb001"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/train_t006"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/btn_ok"
+        android:text="@string/train_c001"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/train_b003"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/train_t006"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/btn_ok"
+        android:text="@string/train_t012"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLay"
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:id="@+id/train_t007"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="136dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:paddingStart="17dp"
+                android:paddingEnd="17dp"
+                android:text="@string/train_t007"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/train_t008"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/train_s001"
+                android:layout_alignStart="@+id/train_t007"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/train_t008"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/train_t009"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/train_s002"
+                android:layout_alignStart="@+id/train_t008"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/train_t009"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/train_t014"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/train_s003"
+                android:layout_alignStart="@+id/train_t009"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/train_t010"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/train_s001"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t007"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFFFF"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/train_s002"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t008"
+                android:layout_alignStart="@+id/train_s001"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFFFF"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/train_s003"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t009"
+                android:layout_alignStart="@+id/train_s002"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFFFF"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/train_s004"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t014"
+                android:layout_alignStart="@+id/train_s003"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFFFF"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/train_cus01"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/train_s001"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginBottom="0dp"
+                android:autofillHints=""
+                android:background="#DDEEE6"
+                android:gravity="center"
+                android:hint="@string/train_h001"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Silver"
+                android:textSize="@dimen/textsize"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/train_time"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignEnd="@+id/train_s001"
+                android:layout_alignBottom="@+id/train_s001"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:text="@string/train_day"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/train_cus02"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t008"
+                android:layout_alignStart="@+id/train_s002"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="#DDEEE6"
+                android:gravity="center"
+                android:hint="@string/train_h001"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Silver"
+                android:textSize="@dimen/textsize"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/train_km"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t008"
+                android:layout_alignEnd="@+id/train_s002"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="@string/train_km"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/train_cus03"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t009"
+                android:layout_alignStart="@+id/train_s003"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="#DDEEE6"
+                android:gravity="center"
+                android:hint="@string/train_h001"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Silver"
+                android:textSize="@dimen/textsize"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/train_high"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t009"
+                android:layout_alignEnd="@+id/train_s003"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="@string/train_m"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/train_cus04"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t014"
+                android:layout_alignStart="@+id/train_s004"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="#DDEEE6"
+                android:gravity="center"
+                android:hint="@string/train_h001"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Silver"
+                android:textSize="@dimen/textsize"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/train_total_time"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/train_t014"
+                android:layout_alignEnd="@+id/train_s004"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="@string/train_hrs"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/myname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/myname23"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize"
+        android:visibility="invisible" />
+
+</RelativeLayout>

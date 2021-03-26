@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale android:interpolator="@android:anim/linear_interpolator"
+        android:startOffset="100"
+        android:fromXScale="0.0"
+        android:toXScale="1.0"
+        android:fromYScale="0.0"
+        android:toYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000"
+        />
+    <rotate
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:fromDegrees="0"
+        android:toDegrees="1080"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000"
+        android:fillAfter="false"
+        />
+</set>
+    <!--       rotate 旋轉動畫效果
+          浮點數型值:
+               fromDegrees 屬性為動畫起始時物件的角度
+               toDegrees   屬性為動畫結束時物件旋轉的角度 可以大於360度
+
+               說明:
+                        當角度為負數——表示逆時針旋轉
+                        當角度為正數——表示順時針旋轉
+                        (負數from——to正數:順時針旋轉)
+                        (負數from——to負數:逆時針旋轉)
+                        (正數from——to正數:順時針旋轉)
+                        (正數from——to負數:逆時針旋轉)
+
+               pivotX     屬性為動畫相對於物件的X坐標的開始位置
+               pivotY     屬性為動畫相對於物件的Y坐標的開始位置
+
+               說明:        以上兩個屬性值 從0%-100%中取值
+                            50%為物件的X或Y方向坐標上的中點位置
+
+           長整型值：
+               duration  屬性為動畫持續時間
+               說明:       時間以毫秒為單位
+
+       -->
+    <!--
+         尺寸伸縮動畫效果 scale
+
+         浮點型值：
+
+               fromXScale 屬性為動畫起始時 X坐標上的伸縮尺寸
+               toXScale   屬性為動畫結束時 X坐標上的伸縮尺寸
+
+               fromYScale 屬性為動畫起始時Y坐標上的伸縮尺寸
+               toYScale   屬性為動畫結束時Y坐標上的伸縮尺寸
+
+               說明:
+                    以上四種屬性值
+
+                       0.0表示收縮到沒有
+                       1.0表示正常無伸縮
+                       值小於1.0表示收縮
+                       值大於1.0表示放大
+
+               pivotX     屬性為動畫相對於物件的X坐標的開始位置
+               pivotY     屬性為動畫相對於物件的Y坐標的開始位置
+
+               說明:
+                       以上兩個屬性值 從0%-100%中取值
+                       50%為物件的X或Y方向坐標上的中點位置
+
+           長整型值：
+               duration  屬性為動畫持續時間
+               說明:   時間以毫秒為單位
+
+           佈爾型值:
+               fillAfter 屬性 當設置為true ，該動畫轉化在動畫結束後被應用   -->

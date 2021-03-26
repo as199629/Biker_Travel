@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ma5">
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:text="@string/profile_t023"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize16" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/profile_t008"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/profile_t017"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/profile_t14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/profile_t032"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/climb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/profile_t034"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pa10">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:text="@string/profile_t041"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize16" />
+
+        <TextView
+            android:id="@+id/distance_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/profile_t045"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/time_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/profile_t046"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/record_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/climb_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/profile_t045"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+    </TableRow>
+
+</LinearLayout>

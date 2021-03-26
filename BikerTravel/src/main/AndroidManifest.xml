@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bikerlifeYang">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher02"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher02_round"
+        android:supportsRtl="true"
+        android:theme="@style/biker_menu_style"
+        android:requestLegacyExternalStorage ="true"
+        android:screenOrientation="locked">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="com.bikerlifeYang.Biker_home" android:launchMode="singleTop" android:screenOrientation="locked" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+<!--        <activity android:name=".Biker_team_information"  android:label="開發團隊" android:screenOrientation="locked"/>-->
+        <activity android:name="com.bikerlifeYang.Biker_login" android:label="登入畫面" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_train"  android:label="訓練" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_train1"  android:label="新增訓練計畫" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_time_map" android:label="導航" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_time_map_plan" android:label="路線規劃" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_profile"  android:label="檔案" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_profile_addfriend" android:label="找尋車友" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_profile_modify" android:label="編輯資料" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_profile_create" android:label="建立社團" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_profile_society" android:label="編輯社團" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_time_Stopwatch" android:launchMode="singleInstance" android:label="紀錄"
+            android:screenOrientation="locked"/>
+<!--        <activity android:name=".Biker_find" android:label="搜尋" android:screenOrientation="locked"/>-->
+<!--        <activity android:name=".Biker_find_road" android:label="搜尋路線" android:screenOrientation="locked"/>-->
+<!--        <activity android:name=".Biker_find_group" android:label="搜尋社團" android:screenOrientation="locked"/>-->
+
+        <activity android:name="com.bikerlifeYang.Biker_Join"  android:label="揪團" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_Join_NewTeam"  android:label="新增揪團" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_Join_now"  android:label="揪團管理" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_Join_history"  android:label="歷史" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_reward"  android:label="成就" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Biker_reward_Change" android:label="更換稱號" android:screenOrientation="locked"/>
+
+        <activity android:name="com.bikerlifeYang.MainActivity" android:label="搜尋" android:screenOrientation="locked"/>
+        <activity android:name="com.bikerlifeYang.Bilerlife_plan" android:label="我的計畫" android:screenOrientation="locked"/>
+<!--        <activity android:name=".Bikerlife_plan_newplan" android:label="新增計畫" android:screenOrientation="locked"/>-->
+        <activity
+            android:name="com.bikerlifeYang.Biker_profile_record_detail"
+            android:label="@string/profile_t007"
+            android:screenOrientation="locked"
+             >
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_color"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/newplan_b002"
+        android:layout_width="10pt"
+        android:layout_height="10pt"
+        android:layout_gravity="right"
+        android:background="@drawable/deleteblack"
+        android:padding="@dimen/pa10"
+        android:paddingBottom="@dimen/padding" />
+
+    <TextView
+        android:id="@+id/newplan_new"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_green1"
+        android:gravity="center"
+        android:text="@string/plan_newplan"
+        android:textColor="#000000"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue1"
+        android:measureWithLargestChild="false"
+        android:padding="@dimen/pa05">
+
+        <TextView
+            android:id="@+id/plan_t001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan2_t001"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <EditText
+            android:id="@+id/newplan_e001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ma5"
+            android:background="@drawable/bg_edt_selector"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/plan_e001"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue1"
+        android:measureWithLargestChild="false"
+        android:padding="@dimen/pa05">
+
+        <TextView
+            android:id="@+id/newplan_t002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan2_t002"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <EditText
+            android:id="@+id/newplan_e002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ma5"
+            android:background="@drawable/bg_edt_selector"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/plan_e002"
+            android:inputType="date|none"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue1"
+        android:measureWithLargestChild="false"
+        android:padding="@dimen/pa05">
+
+        <TextView
+            android:id="@+id/newplan_t003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan2_t003"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <Spinner
+            android:id="@+id/newplan_s001"
+            android:layout_width="wrap_content"
+            android:layout_height="25pt"
+            android:background="@android:drawable/btn_dropdown"
+            android:ems="10"
+            android:entries="@array/newplan_place"
+            android:gravity="end"
+            android:inputType="numberDecimal"
+            android:prompt="@string/plan_e003"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/newplan_b003"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/biker_re_lLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="right"
+        android:layout_marginTop="15dp"
+        android:background="@color/btn_ok"
+        android:gravity="center"
+        android:text="@string/plan_OK"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myname_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="right"
+        android:text="@string/myname_20"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

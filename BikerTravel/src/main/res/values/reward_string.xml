@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    0228-->
+    <string name="reward_dialog_1">請稍候</string>
+    <string name="reward_dialog_2">載入資料中</string>
+    <string name="reward_mysql_error1">主機資料庫無資料</string>
+    <string name="reward_get1">(成就已達成)</string>
+    <string name="rewardchange_btn">更換稱號</string>
+    <string name="rewardtext1">你已達成</string>
+    <string name="rewardtext2">個成就</string>
+    <string name="rewardtext3">本稱號取得須達成</string>
+    <string name="rewardtext4">稱號未啟用</string>
+    <string name="rewardtext5">請另選稱號</string>
+    <string name="rewardtext6">目前進度</string>
+    <string name="rewardtext7">公里；達成條件:</string>
+    <string name="rewardtext8">公里</string>
+    <string name="rewardtext9">不明</string>
+    <string name="rewardtext10">未選擇</string>
+    <string name="rewardtext11">成就詳情</string>
+    <string name="reward_loading">讀取中</string>
+
+    <string name="reward_okHttp_error0">伺服器匯入資料(code:</string>
+    <string name="reward_okHttp_error1">資訊回應(code:</string>
+    <string name="reward_okHttp_error2">已經完成由伺服器匯入資料(code:</string>
+    <string name="reward_okHttp_error3">伺服器重定向訊息，請稍後在試(code:</string>
+    <string name="reward_okHttp_error4">用戶端錯誤回應，請稍後在試(code:</string>
+    <string name="reward_okHttp_error5">伺服器error responses，請稍後在試(code:</string>
+    <string name="reward_okHttp_error6">遠端資料庫異常(code:</string>
+
+<!--    -->
+    <string-array name="title_name_List">
+        <item>無知的初心者</item>
+        <item>開始XD的見習生</item>
+        <item>只知kuso的小平民</item>
+        <item>了解騎車的冒險者</item>
+        <item>不擊隔大學士</item>
+        <item>經歷滄桑的老車友</item>
+        <item>真巴哈姆特鐵馬騎士</item>
+    </string-array>
+
+    <string-array name="reward">
+        <item>新手上路</item>
+        <item>不需要輔助輪</item>
+        <item>車行百里</item>
+        <item>鐵石小腿</item>
+        <item>胎紋都沒了</item>
+        <item>衝出大氣層</item>
+        <item>已經環繞地球一周了</item>
+    </string-array>
+    <string-array name="rewardDes">
+        <item>新手上路的說明</item>
+        <item>鐵腿三項的說明</item>
+        <item>輪胎破壞者的說明</item>
+        <item>測試1的說明</item>
+        <item>測試2的說明</item>
+        <item>測試3的說明</item>
+        <item>測試4的說明</item>
+        <item>測試5的說明</item>
+        <item>測試6的說明</item>
+    </string-array>
+
+<!--    1025new-->
+    <string name="reward_t001">姓名:</string>
+    <string name="reward_t002">稱號:</string>
+    <string name="reward_t003">成就進度:</string>
+    <string name="reward_change">更換稱號</string>
+
+
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="find_srch">請輸入...</string>
+    <string name="find_grpbtn">推薦&amp;加入社團</string>
+<!--    &在StreamReader讀取，會用XmlDocument或是XmlDataDocument來Load，但是在Load()時就會跳進Exception-->
+<!--    resolution &==>&amp;-->
+    <string name="find_roadbtn">推薦路線</string>
+    <string name="find">搜尋</string>
+
+    <string-array name="road_name">
+        <item>旱溪自行車道</item>
+        <item>頭汴坑酒桶山自行車道</item>
+        <item>東豐自行車道</item>
+        <item>后豐鐵馬道</item>
+        <item>永豐六分線自行車道</item>
+        <item>潭雅神綠園道</item>
+        <item>中科自行車道</item>
+        <item>筏子溪自行車道</item>
+        <item>高美濕地自行車道</item>
+        <item>清水五福圳自行車道</item>
+    </string-array>
+
+    <string-array name="grp_des">
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+        <item>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Placeat, et.</item>
+    </string-array>
+
+    <string-array name="grp_name">
+        <item>A group</item>
+        <item>B group</item>
+        <item>C group</item>
+        <item>D group</item>
+        <item>E group</item>
+        <item>F group</item>
+        <item>G group</item>
+        <item>H group</item>
+    </string-array>
+
+    <string name="myname_21">21陳冠廷</string>
+</resources>

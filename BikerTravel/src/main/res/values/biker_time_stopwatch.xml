@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stopwatch_timing_text">紀錄時間</string>
+    <string name="stopwatch_ridingtime_text">騎乘時間</string>
+    <string name="stopwatch_distance">0.0 km</string>
+    <string name="stopwatch_distance_text">距離</string>
+    <string name="stopwatch_timezero">00:00:00</string>
+    <string name="stopwatch_longitude_text">經度</string>
+    <string name="stopwatch_zero">0</string>
+    <string name="stopwatch_zerometers">0.0 m</string>
+    <string name="stopwatch_startTime_text">開始時間</string>
+    <string name="stopwatch_latitude_text">緯度</string>
+    <string name="stopwatch_climbHeight_text">最高海拔</string>
+    <string name="stopwatch_zero_hkm">0.0 h/km</string>
+    <string name="stopwatch_altitudeDown_text">最低海拔</string>
+    <string name="stopwatch_km">km</string>
+    <string name="stopwatch_tripleZero">00:00:00</string>
+    <string name="stopwatch_prompt_pause">自動暫停中</string>
+    <string name="stopwatch_endTime_text">結束時間</string>
+    <string name="stopwatch_uphill_text">爬升距離</string>
+    <string name="stopwatch_downhill_text">下坡距離</string>
+    <string name="stopwatch_noGps">GPS未啟動的話將無法紀錄你的騎乘狀態</string>
+    <string name="stopwatch_btnsetGPS">前往設置定位</string>
+    <string name="stopwatch_assent">同意</string>
+    <string name="stopwatch_FileName">檔案名稱</string>
+    <string name="stopwatch_Precautions">注意事項</string>
+    <string name="stopwatch_Precautions_text01">我們將在您的根目錄/Download底下創建\n軌跡圖檔(gpx檔)是否同意?</string>
+    <string name="stopwatch_userjoin_FileName">你輸入的檔名為:</string>
+    <string name="stopwatch_SD_CantSave">SD卡不能儲存</string>
+    <string name="stopwatch_disagree">不同意</string>
+    <string name="stopwatch_CompleteDlg_title">確定要完成紀錄嗎?</string>
+    <string name="stopwatch_CompleteDlg_Message">按下確認後完成紀錄</string>
+    <string name="stopwatch_cancel">不同意</string>
+    <string name="stopwatch_Notice_Title">請別離開紀錄、導航、關閉螢幕</string>
+    <string name="stopwatch_Notice_ContextText">不然會造成紀錄不準確</string>
+    <string name="stopwatch_addLine01">不然會造成紀錄不準確</string>
+    <string name="stopwatch_checkgps_title">定位管理</string>
+    <string name="stopwatch_checkgps_message">GPS目前狀態是尚未啟用.\n\"                             + \"請問你是否現在就設定啟用GPS?</string>
+    <string name="stopwatch_checkgps_enable">啟用</string>
+    <string name="stopwatch_checkgps_notenable">不啟用</string>
+    <string name="stopwatch_Auto_pause">自動暫停中</string>
+
+</resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:padding="@dimen/padding"
+    tools:context=".Biker_Join">
+
+
+    <RelativeLayout
+        android:id="@+id/His_R1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/join_history_Exit"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/join_history_Des"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="214dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/btn_ok"
+            android:text="@string/join_history_exit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/join_history_member"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/join_history_Des"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/btn_ok"
+            android:text="@string/join_memberlist_on"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/join_history_Des"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/join_history_t005"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/button_green1"
+            android:text="xxx"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/join_history_t001"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/join_history_img"
+            android:background="@drawable/button_blue1"
+            android:gravity="center"
+            android:text="@string/join_history_t001"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/join_history_t002"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/join_history_t001"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/join_history_img"
+            android:background="@drawable/button_blue1"
+            android:gravity="center"
+            android:text="@string/join_history_t002"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/join_history_t003"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/join_history_img"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/button_blue1"
+            android:gravity="center"
+            android:text="@string/join_history_t003"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/join_history_t004"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/join_history_t003"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/button_blue1"
+            android:gravity="center"
+            android:text="@string/join_history_t004"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/join_history_t005"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/join_history_t004"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/button_blue1"
+            android:gravity="center"
+            android:text="@string/join_history_t005"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/join_history_t006"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/join_history_organiser"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/join_history_people"
+            android:background="@drawable/button_blue1"
+            android:gravity="center"
+            android:text="@string/join_history_t006"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/join_history_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+        <TextView
+            android:id="@+id/join_history_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/join_history_t001"
+            android:background="@drawable/button_green1"
+            android:gravity="center"
+            android:text="xxx"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/join_history_organiser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/join_history_title"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/join_history_t002"
+            android:background="@drawable/button_green1"
+            android:gravity="center"
+            android:text="xxx"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/join_history_date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/join_history_organiser"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/join_history_t006"
+            android:background="@drawable/button_green1"
+            android:gravity="center"
+            android:text="xxx"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/join_history_address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/join_history_t006"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/join_history_t004"
+            android:background="@drawable/button_green1"
+            android:gravity="center"
+            android:text="xxx"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/join_history_people"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/join_history_t002"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/join_history_t003"
+            android:background="@drawable/button_green1"
+            android:gravity="center"
+            android:text="xxx"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/myname4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="29dp"
+            android:text="@string/myname30"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/His_R2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView_history_members"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/join_history_cancel_member"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/RecyclerView_history_members"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="27dp"
+            android:background="@color/btn_ok"
+            android:text="@string/join_memberlist_off"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

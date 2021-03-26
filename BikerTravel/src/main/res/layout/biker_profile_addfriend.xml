@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:padding="@dimen/padding"
+    tools:context=".Biker_profile">
+
+    <EditText
+        android:id="@+id/profile_t01"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bg_edt_focused"
+        android:hint="@string/profile_t010"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:maxLength="10"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:id="@+id/profile_t047"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/profile_t01"
+        android:background="@drawable/ic_search_profile"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:id="@+id/profile_t140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/white"
+        android:text="@string/name_hans"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize"
+        android:visibility="invisible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/addfriend_re"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_t047"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_green1" />
+</RelativeLayout>

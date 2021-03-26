@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_color">
+
+        <TableRow
+            android:id="@+id/TB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/biker_join_Recruiting2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/background_color"
+                android:gravity="center"
+                android:text="@string/join_spinner1"
+                android:textColor="#000000"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/biker_join_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/background_color" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/biker_join_Recruiting"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/biker_join_t001"
+                android:textColor="#000000"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/biker_join_Historyteam"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:background="@drawable/button_check"
+                android:gravity="center"
+                android:text="@string/biker_join_t002"
+                android:textColor="#000000"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/biker_join_newteam_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/recyclerview"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="214dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/btn_ok"
+            android:text="@string/biker_join_newteam"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/ListView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/TB"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/button_green1"
+            android:visibility="invisible">
+
+        </ListView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/TB"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/button_green1" />
+
+        <TextView
+            android:id="@+id/joinanim"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/recyclerview"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/join_icon_bike"
+            android:backgroundTint="@color/black"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/myname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="164dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="13dp"
+            android:text="@string/myname30"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

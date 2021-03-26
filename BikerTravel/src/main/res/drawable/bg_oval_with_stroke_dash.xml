@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- padding設置內間距 -->
+    <padding
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:top="4dp" />
+    <!-- size設置形狀的大小 -->
+    <size
+        android:width="40dp"
+        android:height="40dp" />
+    <!-- stroke設置描邊 -->
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/darker_gray"
+        android:dashGap="2dp"
+        android:dashWidth="4dp" />
+</shape>

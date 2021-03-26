@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="train_t001">訓練計畫</string>
+    <string name="train_t002">請制訂訓練計畫</string>
+    <string name="train_t003">累積里程</string>
+    <string name="train_t004">爬升高度</string>
+    <string name="train_t005">騎乘時間</string>
+    <string name="train_t006">整體進度</string>
+    <string name="train_t007">計畫時間</string>
+    <string name="train_t008">預計騎乘里程</string>
+    <string name="train_t009">預計爬升高度</string>
+    <string name="train_t010">預計騎乘時間</string>
+    <string name="train_t011">重設訓練</string>
+    <string name="train_t012">新增訓練</string>
+    <string name="train_h001">請輸入數字</string>
+    <string name="train_c001">自訂</string>
+    <string name="train_day">天</string>
+    <string name="train_hrs">hrs</string>
+    <string name="train_m">m</string>
+    <string name="train_km">km</string>
+    <string name="train_giveup">確定放棄計畫</string>
+    <string name="train_yes">是</string>
+    <string name="train_no">否</string>
+    <string name="toast1">請輸入目標</string>
+    <string name="train_dialog_title">訓練完成</string>
+    <string name="train_dialog_text">訓練挑戰成功</string>
+    <string name="train_dialog_text2">請繼續挑戰新的目標</string>
+    <string name="myname23">23楊皓文</string>
+
+    <string-array name="time">
+        <item>7</item><item>14</item><item>21</item><item>28</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="km">
+        <item>100</item><item>120</item><item>140</item><item>160</item>
+        <item>180</item><item>200</item><item>220</item><item>240</item>
+        <item>260</item><item>280</item>
+    </string-array>
+    <string-array name="high">
+        <item>200</item><item>400</item><item>600</item><item>800</item><item>1000</item>
+        <item>1200</item><item>1400</item><item>1600</item><item>1800</item><item>2000</item>
+        <item>2200</item><item>2400</item><item>2600</item><item>2800</item>
+    </string-array>
+    <string-array name="totaltime">
+        <item>8</item><item>10</item><item>12</item><item>14</item>
+        <item>16</item><item>18</item><item>20</item><item>22</item>
+        <item>24</item><item>26</item><item>28</item><item>30</item>
+    </string-array>
+
+</resources>

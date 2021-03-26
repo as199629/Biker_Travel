@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:padding="@dimen/padding">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/R1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/join_new_t007"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_add_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_new_t001"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_t007"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_new_t001"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_new_t002"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_title"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_new_t002"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_new_t003"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_t002"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_new_t006"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_new_t004"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_t003"
+                android:layout_alignParentStart="false"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_new_t003"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_new_t005"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/join_new_t009"
+                android:layout_alignParentStart="false"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_new_t004"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_new_t009"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_t004"
+                android:layout_alignParentStart="false"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_new_t007"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/join_new_t008"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_t005"
+                android:layout_alignParentStart="false"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/join_new_t005"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/join_new_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_t007"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_new_t001"
+                android:background="@drawable/button_green1"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/join_hint1"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Gray"
+                android:textSize="@dimen/titlesize" />
+
+            <TextView
+                android:id="@+id/join_new_date"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_title"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_new_t002"
+                android:background="@drawable/button_green1"
+                android:gravity="center"
+                android:hint="@string/join_hint2"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Gray"
+                android:textSize="@dimen/titlesize" />
+
+            <TextView
+                android:id="@+id/join_new_time"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_date"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_new_t002"
+                android:background="@drawable/button_green1"
+                android:gravity="center"
+                android:hint="@string/join_hint3"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Gray"
+                android:textSize="@dimen/titlesize" />
+
+            <EditText
+                android:id="@+id/join_new_people"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_time"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_new_t004"
+                android:background="@drawable/button_green1"
+                android:digits="1234567890"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/join_hint4"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Gray"
+                android:textSize="@dimen/titlesize" />
+
+            <EditText
+                android:id="@+id/join_new_address"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/join_new_club_spinner"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_new_t005"
+                android:background="@drawable/button_green1"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/join_hint5"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Gray"
+                android:textSize="@dimen/titlesize" />
+
+            <Spinner
+                android:id="@+id/join_new_club_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/join_new_people"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/join_new_t009" />
+
+            <EditText
+                android:id="@+id/join_new_des"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@+id/join_new_t008"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_green1"
+                android:ems="10"
+                android:gravity="top|left"
+                android:hint="@string/join_hint6"
+                android:inputType="textMultiLine|textPersonName"
+                android:maxLength="60"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Gray"
+                android:textSize="@dimen/titlesize" />
+
+            <Button
+                android:id="@+id/join_new_Check"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/join_new_des"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="214dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/btn_ok"
+                android:text="@string/join_new_Check"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titlesize"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/myname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/myname30"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

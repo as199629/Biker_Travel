@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <TableRow
+        android:id="@+id/TR1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/button_green1"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/timing_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/stopwatch_timing_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/timing_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="01:55:27"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ridingtime_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/stopwatch_ridingtime_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/ridingtiming_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="01:36:27"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TR2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/pa10"
+        android:background="@drawable/button_green1"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/distance_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/stopwatch_distance_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/distanceSum_r"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="20.75km"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/titlesize" />
+            </TableRow>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/del_record"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@color/btn_ok"
+                android:gravity="center"
+                android:onClick="del_record"
+                android:text="@string/del_record"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TR3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/pa10"
+        android:background="@drawable/button_green1"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/uphill_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/stopwatch_uphill_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/uphillSum_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="0.8km"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/downhill_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/stopwatch_downhill_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/downhillSum_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="2.3km"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TR4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/pa10"
+        android:background="@drawable/button_green1"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/altitudeUp_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/stopwatch_climbHeight_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/altitudeUp_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="50.75m"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/altitudeDown_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/stopwatch_altitudeDown_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/altitudeDown_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="30.75m"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TR5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/pa10"
+        android:background="@drawable/button_green1"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/avgSpeed_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/profile_t028"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/avgSpeed_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="13.0km/h"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fastestSpeed_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/profile_t052"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/fastestSpeed_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="16.8km/h"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TR6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/pa10"
+        android:background="@drawable/button_green1"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/startTime_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/stopwatch_startTime_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/startTime_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="15:07:07"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/endTime_text_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_blue1"
+                android:gravity="center"
+                android:text="@string/stopwatch_endTime_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:id="@+id/endTime_r"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="16:43:34"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/name_hans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:gravity="end"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize" />
+
+</LinearLayout>

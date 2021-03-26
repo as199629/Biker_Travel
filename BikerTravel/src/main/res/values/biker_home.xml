@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_table_title_route">車道路線</string>
+    <string name="home_table_title_attraction">觀光景點</string>
+    <string name="home_logout_ok">確定要登出嗎?</string>
+    <string name="home_logout_text">登出</string>
+    <string name="home_action_text">確定要離開嗎?</string>
+    <string name="home_action_title">離開</string>
+    <string name="home_goLogin">前往登入</string>
+
+
+    <string name="home_title_activity_m1908">19.9 MapLocation</string>
+    <string name="home_item01">切換圖示</string>
+    <string name="home_prompt_select_location">請選擇地點</string>
+    <string name="home_prompt_select_map_type">請選擇地圖模式</string>
+    <string name="home_showlocid">顯示目前位置</string>
+    <string name="home_msg">訊息</string>
+    <string name="home_item02">清除標記</string>
+    <string name="home_map_not_ready">Map 設置未完成</string>
+
+
+    <string name="home_btn_getweather">取得當地天氣狀態</string>
+    <string name="home_country">"地區: "</string>
+    <string name="home_Temperature">溫度:</string>
+    <string name="home_Temperature_Min">最低溫度:</string>
+    <string name="home_Temperature_Max">最高溫度:</string>
+    <string name="home_Humidity">"濕度: "</string>
+    <string name="home_Pressure">"氣壓: "</string>
+    <string name="home_areaname">英文地名:</string>
+    <string name="w_description">狀況:</string>
+    <string name="w_icon">圖示網址:</string>
+    <string name="home_img_des">天氣圖片</string>
+    <string name="home_showpic">天氣圖片:</string>
+    <string name="home_weather_lon">經度:</string>
+    <string name="home_weather_lat">緯度:</string>
+    <string name="home_weather_name">地點:</string>
+    <string name="home_dilog_close">關閉</string>
+
+    <string name="home_m2206_descr">說明:</string>
+    <string name="home_m2206_t001">選擇:</string>
+    <string name="home_m2206_name">名稱:</string>
+    <string name="home_m2206_add">住址:</string>
+    <string name="home_img">圖片</string>
+    <string name="home_opendata">匯入opendata</string>
+    <string name="home_title">請稍等</string>
+    <string name="home_message">執行中...</string>
+    <string name="home_ncount">共計:</string>
+    <string name="home_loading">數據載入中......</string>
+    <string name="home_Zipcode">郵遞區號:</string>
+    <string name="home_menu_top">跳到首筆</string>
+    <string name="home_menu_end">跳到尾筆</string>
+    <string name="home_loadover">重新載入完成</string>
+    <string name="home_menu_next">+100</string>
+    <string name="home_menu_back">-100</string>
+    <string name="home_dlg_go_map">前往導航</string>
+    <string name="home_select_text">請點選路線或景點觀看資料</string>
+
+
+    <string name="home_dialog_title">☆☆旅遊景點☆☆</string>
+    <string name="home_dialog_b001">這可能會造成行動數據的使用量增加</string>
+    <string name="home_dialog_t001">更新數據:</string>
+    <string name="home_dialog_positive">是</string>
+    <string name="home_dialog_negative">否</string>
+    <string name="home_dialog_neutral">取消</string>
+    <string name="home_server_error">伺服器異常</string>
+
+</resources>

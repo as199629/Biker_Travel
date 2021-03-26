@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".Biker_login">
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginBottom="210dp"
+        android:text="增加"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/TESTUpdatabtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:text="測試更新的按鈕"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/TESTdelbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TESTUpdatabtn"
+        android:layout_marginTop="0dp"
+        android:text="測試刪除的按鈕"
+        android:visibility="gone" />
+
+    <com.bikerlifeYang.CircleImgView
+        android:id="@+id/google_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/login_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="105dp"
+        android:contentDescription="qwqqw"
+        android:elevation="1dp"
+        app:srcCompat="@drawable/googleg_color" />
+
+    <ImageView
+        android:id="@+id/logo_img01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:background="@drawable/biker_login"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/logo01"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/login_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/home_biker"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/logo02"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/login_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/home_biker"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/button_blue1"
+        android:gravity="center"
+        android:text="@string/login_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googlelogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="140dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="29陳亮瑜"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="傳回值按鈕"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/googlelogout"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="140dp"
+        android:background="@color/white"
+        android:text="@string/login_signout"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/disconnect_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/googlelogout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="53dp"
+        android:background="@color/white"
+        android:text="中斷連結"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/show_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/login_title"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-79dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        android:visibility="gone" />
+
+</RelativeLayout>

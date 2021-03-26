@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:background="@drawable/button_blue1">
+
+    <TextView
+        android:id="@+id/train_title"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="警告"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_dialog_warning" />
+
+    <TextView
+        android:id="@+id/tarin_waring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/train_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="確定要刪除此訓練嗎?"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/train_btnOK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/train_btnCancel"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/train_btnCancel"
+        android:background="@color/btn_ok"
+        android:text="確定"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/train_btnCancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/btn_cal"
+        android:text="取消"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize" />
+</RelativeLayout>

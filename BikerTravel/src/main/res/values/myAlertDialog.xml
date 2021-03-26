@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_title">☆☆旅館民宿☆☆</string>
+    <string name="dialog_b001">這可能會造成行動數據的使用量增加</string>
+    <string name="dialog_t001">更新數據:</string>
+    <string name="dialog_positive">是</string>
+    <string name="dialog_negative">否</string>
+    <string name="dialog_neutral">取消</string>
+</resources>

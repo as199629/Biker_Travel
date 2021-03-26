@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Biker Travel</string>
+    <string name="SQLite_version">2</string>
+</resources>

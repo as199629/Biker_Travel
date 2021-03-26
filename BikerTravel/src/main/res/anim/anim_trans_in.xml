@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:startOffset="1000"
+        android:fromYDelta="-150%p"
+        android:toYDelta="0%p"
+
+        android:fillAfter="true"/>
+</set>
+    <!-- translate 位置轉移動畫效果
+    整型值:
+    fromXDelta 屬性為動畫起始時 X坐標上的位置
+    toXDelta 屬性為動畫結束時 X坐標上的位置
+    fromYDelta 屬性為動畫起始時 Y坐標上的位置
+    toYDelta 屬性為動畫結束時 Y坐標上的位置
+    註意:
+    沒有指定fromXType toXType fromYType toYType 時候，
+    默認是以自己為相對參照物
+    長整型值：
+    duration 屬性為動畫持續時間
+    說明: 時間以毫秒為單位 -->
+    <!-- (從屏幕上面進入) -->

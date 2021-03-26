@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="500" android:exitFadeDuration="500">
+    <!-- 獲得焦點時 -->
+    <item android:drawable="@drawable/bg_edt_focused" android:state_focused="true" />
+    <!-- 默認時 -->
+    <item android:drawable="@drawable/bg_edt_normal" />
+</selector>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/padding"
+    android:paddingLeft="@dimen/padding"
+    android:paddingBottom="@dimen/padding">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地區鄉鎮:"
+            android:textColor="#6D4301"
+            android:textSize="@dimen/textsize16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/route_S_PlaceDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/t01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="車道名稱:"
+            android:textColor="#6D4301"
+            android:textSize="@dimen/textsize16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/route_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="路線總長:"
+            android:textColor="#6D4301"
+            android:textSize="@dimen/textsize16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/route_Bike_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XXX"
+            android:textAlignment="viewStart"
+            android:textColor="@color/Red"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="詳細介紹:"
+            android:textColor="#6D4301"
+            android:textSize="@dimen/textsize16"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/route_Toldescribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="X"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/t005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/padding"
+        android:background="@color/Silver" />
+</LinearLayout>

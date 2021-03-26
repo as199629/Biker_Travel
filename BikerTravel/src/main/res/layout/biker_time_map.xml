@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipChildren="false"
+    android:orientation="horizontal"
+   >
+    <!--    tools:context=".Biker_time_map2"> 20210118將2刪掉-->
+<!--    20210130 drawable/map 改 background="@color/white"-->
+
+
+    <!--    <fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--        xmlns:tools="http://schemas.android.com/tools"-->
+    <!--        android:id="@+id/map"-->
+    <!--        android:name="com.google.android.gms.maps.SupportMapFragment"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        tools:context=".MapsActivityCurrentPlace" />-->
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.currentplacedetailsonmap.MapsActivityCurrentPlace" />
+    <!--        tools:context="com.example.mapwithmarker.MapsMarkerActivity"-->
+
+
+    <!--        <fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--            xmlns:map="http://schemas.android.com/apk/res-auto"-->
+    <!--            xmlns:tools="http://schemas.android.com/tools"-->
+    <!--            android:id="@+id/map"-->
+    <!--            android:name="com.google.android.gms.maps.SupportMapFragment"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            tools:context="com.doppler.stackingcoder.pechhulp.PechhulpActivity" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/time_map_watch"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@color/btn_ok"
+            android:gravity="center|center_horizontal"
+            android:text="@string/biker_map_watch"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/time_map_show"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/btn_ok"
+            android:gravity="center|center_horizontal"
+            android:text="@string/biker_map_show"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/time_map_check2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_gravity="right|end"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@color/btn_ok"
+            android:gravity="center|center_horizontal"
+            android:text="✔確認"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/time_map_pathfinding"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_gravity="right|end"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@color/btn_ok"
+            android:gravity="center|center_horizontal"
+            android:text="@string/biker_map_plan"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/time_map_main_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/map"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/time_map_plan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/bg_rectangle_with_stroke_dash"
+        android:gravity="center"
+        android:text="@string/biker_map_plan"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/label"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="@color/black"-->
+    <!--        android:gravity="start|center_vertical"-->
+    <!--        android:text="  MAP"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:visibility="invisible" />-->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="104dp"
+        android:gravity="end"
+        android:text="@string/name_22"
+        android:textColor="@color/Teal"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/map_img_fr01"
+        android:layout_width="70dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="467dp"
+        android:alpha="1"
+        android:background="@drawable/friend_location_s"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/map_img_fr02"
+        android:layout_width="70dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="373dp"
+        android:alpha="1"
+        android:background="@drawable/friend_location_s"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/map_img_fr03"
+        android:layout_width="70dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="200dp"
+        android:alpha="1"
+        android:background="@drawable/friend_location_s"
+        android:visibility="invisible" />
+
+    <SeekBar
+        android:id="@+id/map_seekBar"
+        style="@android:style/Widget.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="137dp"
+        android:max="100"
+        android:progress="100"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/img_friend1"
+        android:layout_width="106dp"
+        android:layout_height="89dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="111dp"
+        android:alpha="1"
+        android:contentDescription="img_friend1"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/friend_location_s" />
+
+    <ImageView
+        android:id="@+id/img_friend2"
+        android:layout_width="106dp"
+        android:layout_height="89dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="160dp"
+        android:alpha="1"
+        android:contentDescription="img_friend2"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/friend_location_s" />
+
+    <ImageView
+        android:id="@+id/img_friend3"
+        android:layout_width="106dp"
+        android:layout_height="89dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="273dp"
+        android:alpha="1"
+        android:contentDescription="img_friend3"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/friend_location_s" />
+
+
+    <!--    20210118從plan移到此處-->
+    <AutoCompleteTextView
+        android:id="@+id/time_map_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/bg_edt_selector_map"
+
+        android:hint="@string/biker_map_start"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/teal_700"
+        android:textColorHint="@color/Gray"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/time_map_txtLat_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_map_goal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="10dp"
+        android:alpha="0.8"
+
+        android:background="@drawable/bg_edt_selector"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="出發點緯度"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/time_map_txtLat_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_map_txtLong_start"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:alpha="0.8"
+
+        android:background="@drawable/bg_edt_selector"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="目的地緯度"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/time_map_txtLong_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_map_txtLat_start"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:alpha="0.8"
+
+        android:background="@drawable/bg_edt_selector"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="出發點經度"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/time_map_txtLong_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_map_txtLat_goal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:alpha="0.8"
+
+        android:background="@drawable/bg_edt_selector"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="目的地經度"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <AutoCompleteTextView
+        android:id="@+id/time_map_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_map_start"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/bg_edt_selector_map"
+        android:hint="@string/biker_map_goal"
+
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/teal_700"
+        android:textColorHint="@color/Gray"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/time_map_lblOutput"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_map_goal"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_color"
+        android:textColor="@color/Teal"
+        android:alpha="0.5"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/time_map_lblOutput2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_map_goal"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/background_color"
+        android:textColor="@color/Teal"
+        android:alpha="0.5"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/time_map_transfer"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_map_goal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/btn_ok"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="轉換"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <com.bikerlifeYang.CircleImgView
+        android:id="@+id/google_icon_mapmarker"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/login_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="105dp"
+        android:contentDescription="qwqqw"
+        android:elevation="1dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/googleg_color" />
+
+    <Spinner
+        android:id="@+id/spnMapType"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="37dp"
+        android:alpha="0.8"
+        android:background="@android:drawable/spinner_dropdown_background"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/prompt_select_map_type" />
+
+    <CheckBox
+        android:id="@+id/checkcontrol"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spnMapType"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="-31dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/spnMapType"
+        android:alpha="0.5"
+        android:background="@android:drawable/spinner_dropdown_background"
+        android:checked="false"
+        android:gravity="center_vertical|center|start"
+        android:onClick="setZoomButtonsEnabled"
+        android:text="@string/CheckBox" />
+
+    <ScrollView
+        android:id="@+id/Scroll01"
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="90dp"
+        android:alpha="0.5"
+        android:background="@android:drawable/spinner_dropdown_background"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/Linear_setbutton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <CheckBox
+                android:id="@+id/zoom_buttons_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66cccccc"
+                android:checked="true"
+                android:onClick="setZoomButtonsEnabled"
+                android:text="@string/zoom_buttons" />
+
+            <CheckBox
+                android:id="@+id/compass_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66cccccc"
+                android:checked="true"
+                android:onClick="setCompassEnabled"
+                android:text="@string/compass" />
+
+            <CheckBox
+                android:id="@+id/mylocationlayer_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66cccccc"
+                android:checked="true"
+                android:onClick="setMyLocationLayerEnabled"
+                android:text="@string/mylocation_layer" />
+
+            <CheckBox
+                android:id="@+id/scroll_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66cccccc"
+                android:checked="true"
+                android:onClick="setScrollGesturesEnabled"
+                android:text="@string/scroll" />
+
+            <CheckBox
+                android:id="@+id/zoom_gestures_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66cccccc"
+                android:checked="true"
+                android:onClick="setZoomGesturesEnabled"
+                android:text="@string/zoom_gestures" />
+
+            <CheckBox
+                android:id="@+id/tilt_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66cccccc"
+                android:checked="true"
+                android:onClick="setTiltGesturesEnabled"
+                android:text="@string/tilt" />
+
+            <CheckBox
+                android:id="@+id/rotate_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66cccccc"
+                android:checked="true"
+                android:onClick="setRotateGesturesEnabled"
+                android:text="@string/rotate" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_map_lblOutput"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-0.5dp"
+        android:background="@drawable/background_color"
+        android:textColor="@color/Teal"
+        android:textColorLink="@color/Teal"
+        android:textSize="12sp"
+        android:text="@string/msg"
+        android:alpha="0.5"
+        />
+
+
+</RelativeLayout>

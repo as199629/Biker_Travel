@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_signin">登入</string>
+    <string name="menu_registered">註冊</string>
+    <string name="menu_forget">忘記密碼</string>
+    <string name="menu_management">帳號管理</string>
+    <string name="menu_connection">聯絡開發者</string>
+    <string name="menu_signout">登出</string>
+    <string name="menu_home">首頁</string>
+    <string name="menu_train">訓練</string>
+    <string name="menu_plan">規劃</string>
+    <string name="menu_find">搜尋</string>
+    <string name="menu_profile">檔案</string>
+    <string name="menu_time_stopwatch">碼表</string>
+    <string name="menu_time_map">導航</string>
+    <string name="menu_join">揪團</string>
+    <string name="menu_reward">成就 </string>
+    <string name="action_settings">返回</string>
+    <string-array name="name">
+        <item>楊雅婷</item>
+        <item>陳冠廷</item>
+        <item>張惠珺</item>
+        <item>楊皓文</item>
+        <item>黃漢昇</item>
+        <item>陳亮瑜</item>
+        <item>蔡培煌</item>
+    </string-array>
+    <string-array name="mail">
+        <item>unopenboy@gmail.com</item>
+        <item>a10723016@gmail.com</item>
+        <item>huichun.chang95@gmail.com</item>
+        <item>as199629@icloud.com</item>
+        <item>soft003622002@hotmail.com</item>
+        <item>ee0021216@gmail.com</item>
+        <item>rabbit50015@gmail.com</item>
+    </string-array>
+    <string-array name="tel">
+        <item>0919474057</item>
+        <item>0905852625</item>
+        <item>0910286922</item>
+        <item>0978217515</item>
+        <item>0911768468</item>
+        <item>0979853123</item>
+        <item>0981552282</item>
+    </string-array>
+
+</resources>

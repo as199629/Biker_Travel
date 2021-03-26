@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    0228大整合-->
+    <string name="join_dialog_1">請稍候</string>
+    <string name="join_dialog_2">載入資料中</string>
+    <string name="join_dialog_3">請稍後再試</string>
+    <string name="join_mysql_error1">主機資料庫無資料</string>
+    <string name="join_mysql_error2">錯誤訊息(json抓取失敗)</string>
+    <string name="join_mysql_error3">發生異常(社團已不存在)</string>
+    <string name="join_add_error1">你目前沒有加入任何社團，不可開新揪團</string>
+    <string name="join_add_error2">目前沒有社團，無法新增</string>
+    <string name="join_prompt1">尚無開團中資訊</string>
+    <string name="join_prompt2">尚無歷史團隊資訊</string>
+    <string name="join_setting">未設定</string>
+    <string name="join_n_member">沒有成員</string>
+    <string name="join_add">加入</string>
+    <string name="join_quit">退出</string>
+    <string name="join_quit2">主辦人不得退出社團</string>
+    <string name="join_network_error">網路不穩定，請注意網路訊號</string>
+    <string name="join_max_error">人數已達上限，不可加入</string>
+    <string name="join_max_error2">人數上限小於參加人數，無法更新</string>
+    <string name="join_del_success">刪除揪團成功</string>
+    <string name="join_update_success">資料已經更新完成</string>
+    <string name="join_authority_error">權限不足(非團長或主辦人)</string>
+    <string name="join_okHttp_error0">伺服器匯入資料(code:</string>
+    <string name="join_okHttp_error1">資訊回應(code:</string>
+    <string name="join_okHttp_error2">已經完成由伺服器匯入資料(code:</string>
+    <string name="join_okHttp_error3">伺服器重定向訊息，請稍後在試(code:</string>
+    <string name="join_okHttp_error4">用戶端錯誤回應，請稍後在試(code:</string>
+    <string name="join_okHttp_error5">伺服器error responses，請稍後在試(code:</string>
+    <string name="join_okHttp_error6">遠端資料庫異常(code:</string>
+    <string name="join_spinner1">所屬社團:</string>
+    <string name="join_memberlist_on">成員名單</string>
+    <string name="join_memberlist_off">關閉成員名單</string>
+    <string name="join_add_text">新增揪團內容</string>
+    <string name="join_text1">詳細資訊</string>
+    <string name="join_memberlist_text1">姓名:</string>
+    <string name="join_memberlist_text2">稱號:</string>
+    <string name="join_memberlist_text3">總里程:</string>
+
+<!--    0206-->
+    <string name="join_new_t007">社團</string>
+    <string name="join_now_member_btn">成員名單</string>
+
+<!--    1226-->
+    <string name="join_now_edit_btn">編輯完畢</string>
+    <string name="join_now_del_btn">移除啾團</string>
+    <string name="join_now_add_btn">加入</string>
+    <string name="warning_title">警告</string>
+    <string name="deleteteam_warning_msg">真的要刪除這次揪團嗎?</string>
+    <string name="deleteteam_warning_okbtn">確定</string>
+    <string name="deleteteam_warning_cancelbtn">容我想想</string>
+
+    <string name="editteam_warning_msg">編輯內容未儲存!</string>
+    <string name="editteam_warning_okbtn">確定離開</string>
+    <string name="editteteam_warning_cancelbtn">繼續編輯</string>
+    <string name="join_new_t006">時間</string>
+
+
+<!--0105-->
+    <string name="join_now_editmode_btn">編輯模式</string>
+    <string name="join_now_editing">編輯中</string>
+    <string name="join_new_error">資料空白無法新增</string>
+    <string name="join_new_error2">新增記錄失敗</string>
+    <string name="join_new_success">新增紀錄成功! </string>
+
+    <!--0117-->
+    <string name="join_error3">請先選擇日期</string>
+    <string name="join_error4">日期未選擇</string>
+    <string name="join_error5">不可選擇過去時間</string>
+    <string name="join_now_error">資料空白無法更新</string>
+
+    <string-array name="now">
+        <item>2020/12/20---后豐鐵馬道</item>
+        <item>2020/12/20---哈哈</item>
+    </string-array>
+    <string-array name="history">
+        <item>2020/10/10---遊台中</item>
+    </string-array>
+    <string-array name="Null">
+    </string-array>
+
+    <string name="biker_join_t001">開團中</string>
+    <string name="biker_join_t002">成團紀錄</string>
+    <string name="biker_join_newteam">開新揪團</string>
+
+    <string name="biker_join_deitteam">編輯</string>
+    <string name="join_history_exit">查閱完畢</string>
+
+    <string name="join_history_t001">標題</string>
+    <string name="join_history_t002">主辦者</string>
+    <string name="join_history_t003">人數</string>
+    <string name="join_history_t004">地點</string>
+    <string name="join_history_t005">描述</string>
+    <string name="join_history_t006">日期</string>
+
+
+    <string name="join_new_t001">標題</string>
+    <string name="join_new_t002">日期</string>
+    <string name="join_new_t003">人數</string>
+    <string name="join_new_t004">地點</string>
+    <string name="join_new_t005">描述</string>
+    <string name="join_new_Check">確認</string>
+
+
+    <string name="Temp1">后豐鐵馬道</string>
+    <string name="Temp2">Yang</string>
+    <string name="Temp3">5</string>
+    <string name="Temp4">110-01-01</string>
+    <string name="Temp5">豐原區國豐路三段</string>
+    <string name="Temp6">請注意保暖</string>
+    <string name="Temp7">08:00出發</string>
+
+
+    <string name="join_hint1">請輸入文字(上限10字)</string>
+    <string name="join_hint2">請選擇日期(勿選舊日)</string>
+    <string name="join_hint3">請選擇出發時間</string>
+    <string name="join_hint4">請輸入人數</string>
+    <string name="join_hint5">請輸入地點</string>
+    <string name="join_hint6">請輸入描述</string>
+
+    <string name="join_error1">不可選擇過去日期</string>
+    <string name="join_error2">你不是哆啦QQ夢，沒有時光機可以搭QQ</string>
+    <string name="myname30">30號蔡培煌</string>
+
+
+</resources>

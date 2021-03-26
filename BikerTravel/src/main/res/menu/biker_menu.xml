@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/g01"
+        android:visibility="invisible">
+        <item
+            android:id="@+id/Item01"
+            android:icon="@drawable/login_icon"
+            android:orderInCategory="100"
+            android:title="@string/menu_signin"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item02"
+            android:icon="@drawable/registered_icon"
+            android:orderInCategory="200"
+            android:title="@string/menu_registered"
+            android:visibility="gone"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item03"
+            android:icon="@drawable/forget_password_icon"
+            android:orderInCategory="300"
+            android:title="@string/menu_forget"
+            android:visible="false"></item>
+    </group>
+    <group
+        android:id="@+id/g02"
+        android:visibility="invisible">
+        <item
+            android:id="@+id/Item04"
+            android:icon="@drawable/login_icon"
+            android:orderInCategory="400"
+            android:title="@string/menu_signout"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item05"
+            android:icon="@drawable/user_management_icon"
+            android:orderInCategory="500"
+            android:title="@string/menu_management"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item06"
+            android:icon="@drawable/phone_icon"
+            android:orderInCategory="600"
+            android:title="@string/menu_connection"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item07"
+            android:orderInCategory="700"
+            android:title="▶首頁"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item08"
+            android:orderInCategory="800"
+            android:title="▶訓練"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item09"
+            android:orderInCategory="900"
+            android:title="▶計畫"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item10"
+            android:orderInCategory="1000"
+            android:title="▶搜尋"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item11"
+            android:orderInCategory="1100"
+            android:title="▶檔案"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item12"
+            android:orderInCategory="1200"
+            android:title="▶碼表"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item13"
+            android:orderInCategory="1300"
+            android:title="▶導航"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item14"
+            android:orderInCategory="1400"
+            android:title="▶揪團"
+            android:visible="false" />
+        <item
+            android:id="@+id/Item15"
+            android:orderInCategory="1500"
+            android:title="▶成就"
+            android:visible="false" />
+    </group>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="9999"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_login"
+        android:title="登入"
+        android:visible="false" />
+    <item
+        android:id="@+id/item_logout"
+        android:title="登出"
+        android:visible="false" />
+</menu>

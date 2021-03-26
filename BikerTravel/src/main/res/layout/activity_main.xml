@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/tr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp">
+
+        <Spinner
+            android:id="@+id/s001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/b001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/btn_ok"
+            android:text="加入" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/biker_recommend_club"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/button_blue1"
+            android:gravity="center"
+            android:text="推薦社團"
+            android:textColor="#000000"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/biker_Application_club"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/button_check"
+            android:gravity="center"
+            android:text="已申請"
+            android:textColor="#000000"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/tr2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_green1">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/list_alreay"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/list"
+        android:layout_marginTop="45dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/t000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="19dp"
+        android:text="21陳冠廷"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/b000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_alreay"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="47dp"
+        android:text="Button"
+        android:visibility="invisible" />
+</RelativeLayout>

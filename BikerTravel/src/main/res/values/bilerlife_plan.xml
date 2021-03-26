@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plan_0000">XXXXXX：</string>
+    <string name="plan_m">-</string>
+    <string name="plan_OK">確定</string>
+    <string name="plan_cel">取消</string>
+
+    <string name="plan_t001">下次計畫：</string>
+    <string name="plan_t002">X月X日</string>
+    <string name="plan_newplan">新增計畫</string>
+    <string name="plan2_t001">名稱：</string>
+    <string name="plan2_t002">日期：</string>
+    <string name="plan2_t003">地點：</string>
+    <string name="plan_t010">溫馨提醒：</string>
+    <string name="plan_t009">建議穿著：</string>
+    <string name="plan_waring_quit">確定放棄寫入計畫嗎？</string>
+    <string name="plan_waring_del">確定刪除此計畫嗎？</string>
+    <string name="plan_del">刪除計畫</string>
+    <string name="plan_noplan1">您尚未有任何計畫</string>
+    <string name="plan_noplan2">快去創建屬於您的新計畫吧！</string>
+
+    <string name="n_yy">年</string>
+    <string name="n_mm">月</string>
+    <string name="n_dd">日</string>
+    <string name="plan_datetitle">選擇日期:</string>
+    <string name="plan_datemessage">請選擇您的計畫日期</string>
+
+    <string name="plan_s001">計畫選擇</string>
+    <string name="plan_t003">天氣</string>
+    <string name="plan_t003_01">最高溫：</string>
+    <string name="plan_t003_02">╱最低溫：</string>
+    <string name="plan_do">°C</string>
+
+    <string name="plan1808">T18:00:00+08:00</string>
+    <string name="plan1208">T12:00:00+08:00</string>
+    <string name="plan0608">T06:00:00+08:00</string>
+
+    <string name="plan_day">白天天氣：</string>
+    <string name="plan_night">晚上天氣：</string>
+    <string name="plan_t005">附近景點</string>
+    <string name="plan_t004">鄰近維修站</string>
+    <string name="plan_t006">XX市</string>
+    <string name="plan_b001">+</string>
+    <string name="plan_e001">請輸入名稱</string>
+    <string name="plan_e002">請選擇日期</string>
+    <string name="plan_e003">請選擇目的地</string>
+
+    <string name="myname_20">20號楊雅婷</string>
+    <string name="plan_nodata">尚未有天氣資料</string>
+    <string name="plan_waringkeyin">您有欄位尚未輸入</string>
+    <string name="plan_waring_time">請選取未來的日期</string>
+    <string name="plan_nowweather">即時天氣</string>
+
+    <string name="m2206_descr">說明:</string>
+    <string name="m2206_t001">選擇:</string>
+    <string name="m2206_name">名稱:</string>
+    <string name="m2206_add">位置:</string>
+    <string name="img">圖片</string>
+    <string name="plan_road">推薦自行車道</string>
+    <string name="loadover">工事中，敬請期待</string>
+    <string name="plan_editplan">編輯計畫</string>
+
+    <string-array name="plan_s001">
+        <item> ---- </item>
+    </string-array>
+
+    <string-array name="newplan_place">
+        <item></item>
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>臺中市</item>
+        <item>臺南市</item>
+        <item>高雄市</item>
+        <item>基隆市</item>
+        <item>新竹縣</item>
+        <item>新竹市</item>
+        <item>苗栗縣</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義縣</item>
+        <item>嘉義市</item>
+        <item>屏東縣</item>
+        <item>宜蘭縣</item>
+        <item>花蓮縣</item>
+        <item>臺東縣</item>
+        <item>澎湖縣</item>
+        <item>金門縣</item>
+        <item>連江縣</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue1"
+        android:baselineAligned="false"
+        android:measureWithLargestChild="false">
+
+        <TextView
+            android:id="@+id/plan_t001"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/plan_t001"
+            android:textColor="@color/Blue"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/plan_newplanname"
+            android:layout_width="40pt"
+            android:layout_height="match_parent"
+            android:text="@string/plan2_t001"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <Spinner
+            android:id="@+id/plan_planname"
+            android:layout_width="40pt"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <Button
+            android:id="@+id/plan_edit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:drawable/ic_menu_edit"
+            android:gravity="right"
+            android:text=""
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/plan_gonewplan"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:drawable/ic_menu_add"
+            android:gravity="right"
+            android:text="" />
+
+        <Button
+            android:id="@+id/plan_delplan"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginStart="30dp"
+            android:background="@android:drawable/ic_menu_delete"
+            android:text="" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/m0501_e001"
+        android:padding="@dimen/pa05">
+
+        <TextView
+            android:id="@+id/plan_t002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_t002"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:drawable/ic_menu_mylocation"
+            android:text="@string/plan_m" />
+
+        <TextView
+            android:id="@+id/plan_t004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_t006"
+            android:textColor="@color/Blue"
+            android:textSize="@dimen/titlesize" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pa05"
+            android:text="@string/plan_day"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/plan_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_t003"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pa05">
+
+        <ImageView
+            android:id="@+id/plan_i003"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ondo" />
+
+        <TextView
+            android:id="@+id/plan_day_mx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_t003_01"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/plan_day_lo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_t003_02"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/plan_t003_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pa05"
+            android:text="@string/plan_night"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/plan_night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_t003"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pa05">
+
+        <ImageView
+            android:id="@+id/plan_i004"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ondo" />
+
+        <TextView
+            android:id="@+id/plan_night_mx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_t003_01"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <TextView
+            android:id="@+id/plan_night_lo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_t003_02"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/plan_t005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plan_t010"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/plan_i002"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/kagi" />
+
+            <TextView
+                android:id="@+id/plan_t006"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plan_t009"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesize" />
+
+            <ImageView
+                android:id="@+id/plan_i001"
+                android:layout_width="40pt"
+                android:layout_height="60pt"
+                app:srcCompat="@drawable/sports_run_syoumen_man" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_green1"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_green1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/plan_b005"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_ok"
+                android:text="@string/plan_t005"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ProgressBar
+                android:id="@+id/plan_p003"
+                style="@android:style/Widget.ProgressBar.Inverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/myname_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="right"
+        android:text="@string/myname_20"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize"
+        android:visibility="invisible" />
+
+</LinearLayout>

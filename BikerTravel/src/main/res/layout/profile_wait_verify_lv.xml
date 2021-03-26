@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.bikerlifeYang.CircleImgView
+        android:id="@+id/friendPic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/hare" />
+
+    <ImageView
+        android:id="@+id/friendSymbol_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/friendPic"
+        android:contentDescription="@string/profile_t012"
+        app:srcCompat="@drawable/ic_add_profile" />
+
+    <TextView
+        android:id="@+id/friendName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/friendSymbol_add"
+        android:gravity="center"
+        android:text="@string/profile_t010"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize" />
+
+    <ImageView
+        android:id="@+id/friendSymbol"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/friendName"
+        android:contentDescription="@string/deny_add" />
+
+    <TextView
+        android:id="@+id/friendID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/friendSymbol"
+        android:gravity="center"
+        android:text="@string/profile_t010"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize" />
+</RelativeLayout>

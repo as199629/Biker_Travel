@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile_t001">Google頭貼</string>
+    <string name="profile_t002">XXX</string>
+    <string name="profile_t003">選擇社團</string>
+    <string-array name="profile_a01">
+        <item>社團A</item>
+        <item>社團B</item>
+        <item>社團C</item>
+    </string-array>
+    <string name="profile_t004">修改</string>
+    <string name="profile_t005">建立社團</string>
+    <string-array name="profile_a02">
+        <item>台中市</item>
+        <item>台北市</item>
+        <item>台南市</item>
+        <item>台東市</item>
+    </string-array>
+    <string-array name="profile_north">
+        <item>北區</item>
+        <item>信義區</item>
+        <item>板橋區</item>
+        <item>新店區</item>
+        <item>南港區</item>
+    </string-array>
+    <string-array name="profile_center">
+        <item>中區</item>
+        <item>潭子區</item>
+        <item>沙鹿區</item>
+        <item>清水區</item>
+        <item>西屯區</item>
+    </string-array>
+    <string-array name="profile_east">
+        <item>卑南鄉</item>
+        <item>大武鄉</item>
+        <item>太麻里鄉</item>
+        <item>東河鄉</item>
+        <item>長濱鄉</item>
+    </string-array>
+    <string-array name="profile_south">
+        <item>柳營鄉</item>
+        <item>新營鎮</item>
+        <item>鹽水鎮</item>
+        <item>白河鎮</item>
+        <item>後壁鄉</item>
+    </string-array>
+    <string name="profile_t006">選擇年份</string>
+    <string name="profile_t007">歷史紀錄</string>
+    <string name="profile_t009">照片</string>
+    <string name="profile_t010">姓名:</string>
+    <string name="profile_t011">刪除</string>
+    <string name="profile_t012">加入</string>
+    <string name="profile_t013">正在追蹤</string>
+    <string name="profile_t014">照片及姓名</string>
+    <string name="profile_t015">登出</string>
+    <string name="profile_t016">找新車友</string>
+    <string name="profile_t018">預設google姓名</string>
+    <string name="profile_t019">地區:</string>
+    <string name="profile_t020">台中市</string>
+    <string name="profile_t021">南區</string>
+    <string name="profile_t022">生日:</string>
+    <string name="profile_t023">2020</string>
+    <string name="profile_t024">性別:</string>
+    <string name="profile_t025">男</string>
+    <string-array name="profile_a04">
+        <item>男</item>
+        <item>女</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="profile_friend">
+        <item>陳亮瑜</item>
+        <item>蔡培煌</item>
+        <item>ayres</item>
+        <item>楊文順</item>
+        <item>吳東頤</item>
+        <item>皓文</item>
+        <item>東文</item>
+    </string-array>
+    <string name="profile_t026">體重:</string>
+    <string name="profile_t027">60</string>
+    <string name="profile_t029">刪除帳號</string>
+    <string name="profile_society">社團A</string>
+    <string name="profile_t030">更改社團名稱</string>
+    <string name="profile_t031">團長</string>
+    <string name="profile_t035">/2人</string>
+    <string name="profile_t036">刪除社團</string>
+    <string name="profile_t037">退出</string>
+    <string name="profile_t038">社團資訊</string>
+    <string name="profile_t039">騎乘距離最長</string>
+    <string name="profile_t040">騎乘距離最短</string>
+    <string name="profile_t042">騎乘速度最快</string>
+    <string name="profile_t043">騎乘速度最慢</string>
+    <string name="profile_t044">社員</string>
+    <string name="name_hans">28號黃漢昇</string>
+    <string name="profile_t056">社團名稱</string>
+    <string name="profile_b001">確認修改</string>
+    <string name="profile_t055">公斤</string>
+    <string name="profile_t008">距離(km)</string>
+    <string name="profile_t017">時間</string>
+    <string name="profile_t032">均速(km/h)</string>
+    <string name="profile_t034">爬升(m)</string>
+    <string name="profile_t041">12/9</string>
+    <string name="profile_t045">20.75</string>
+    <string name="profile_t046">1:36:27</string>
+    <string name="profile_t047">旅程短記:幫忙校長家人見到習慣</string>
+    <string name="profile_t048">9/24</string>
+    <string name="profile_t049">史塔克</string>
+    <string name="profile_t050">2020/09/09</string>
+    <string name="profile_t051">待審核</string>
+    <string name="profile_t033">請選擇日期</string>
+    <string name="unborn">未出生的</string>
+    <string name="warn">確定要刪除此社團嗎?</string>
+    <string name="deny_add">拒絕</string>
+    <string name="addFriend">已送出邀請給</string>
+    <string name="warn_cancel_follow">取消追蹤</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="giveup">放棄編輯?</string>
+    <string name="profile_t028">平均速度</string>
+    <string name="profile_t052">最快速度</string>
+    <string name="nodata">沒紀錄</string>
+    <string name="repeat">重複</string>
+    <string name="nameexist">社團名稱已存在</string>
+    <string name="not_leader">抱歉!您非團長</string>
+    <string name="del_record">刪除紀錄</string>
+    <string name="fullmember">社團已滿，請先刪除社員</string>
+    <string name="no_internet">網路連線失敗</string>
+    <string name="leave">離開</string>
+    <string name="profile_t053">更新社團公告</string>
+    <string name="nopost">無公告</string>
+    <string name="profile_t054">最近揪團:</string>
+    <string name="profile_t057">出發時間:</string>
+
+</resources>

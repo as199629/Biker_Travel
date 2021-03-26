@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:padding="@dimen/padding"
+    tools:context=".Biker_profile">
+
+    <TableRow
+        android:id="@+id/profile_ta011"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/profile_a02"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:entries="@array/profile_a02"
+            android:gravity="center"
+            android:text="@string/profile_t020"
+            android:textSize="@dimen/textsize" />
+
+        <Spinner
+            android:id="@+id/profile_a03"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/profile_center"
+            android:gravity="center"
+            android:text="@string/profile_t021"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/profile_ta010"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/profile_ta011"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/profile_t056"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titlesize" />
+
+        <EditText
+            android:id="@+id/profile_e05"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_edt_focused"
+            android:gravity="start"
+            android:hint="@string/profile_t056"
+            android:importantForAutofill="no"
+            android:inputType="textShortMessage"
+            android:maxLength="10"
+            android:textColor="@color/black"
+            android:textColorHint="@color/Gray"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/profile_t057"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_add_profile"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/profile_t140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_ta010"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize" />
+</RelativeLayout>

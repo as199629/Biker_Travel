@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:padding="@dimen/padding">
+
+    <EditText
+        android:id="@+id/join_edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_t007"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/join_edit_t001"
+        android:background="@drawable/button_green1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/join_hint1"
+        android:inputType="textPersonName"
+        android:text="@string/Temp1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Gray"
+        android:textSize="@dimen/titlesize" />
+
+    <TextView
+        android:id="@+id/join_edit_date"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_title"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/join_edit_t002"
+        android:background="@drawable/button_green1"
+        android:gravity="center"
+        android:hint="@string/join_hint2"
+        android:text="@string/Temp4"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Gray"
+        android:textSize="@dimen/titlesize" />
+
+    <TextView
+        android:id="@+id/join_edit_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_date"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/join_edit_t002"
+        android:background="@drawable/button_green1"
+        android:gravity="center"
+        android:hint="@string/join_hint3"
+        android:text="@string/Temp7"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Gray"
+        android:textSize="@dimen/titlesize" />
+
+    <EditText
+        android:id="@+id/join_edit_people"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_t003"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/join_edit_t004"
+        android:background="@drawable/button_green1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/join_hint4"
+        android:inputType="number"
+        android:text="@string/Temp3"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Gray"
+        android:textSize="@dimen/titlesize" />
+
+    <EditText
+        android:id="@+id/join_edit_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_people"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/join_edit_t005"
+        android:background="@drawable/button_green1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/join_hint5"
+        android:inputType="textPersonName"
+        android:text="@string/Temp5"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Gray"
+        android:textSize="@dimen/titlesize" />
+
+    <EditText
+        android:id="@+id/join_edit_des"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/join_edit_t006"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_green1"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="@string/join_hint6"
+        android:inputType="textMultiLine|textPersonName"
+        android:text="@string/Temp6"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Gray"
+        android:textSize="@dimen/titlesize" />
+
+    <TextView
+        android:id="@+id/join_edit_t001"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_t007"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_blue1"
+        android:gravity="center"
+        android:text="@string/join_new_t001"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/join_edit_t002"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_t001"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_blue1"
+        android:gravity="center"
+        android:text="@string/join_new_t002"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/join_edit_t003"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_t002"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_blue1"
+        android:gravity="center"
+        android:text="@string/join_new_t006"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/join_edit_t004"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_t003"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_blue1"
+        android:gravity="center"
+        android:text="@string/join_new_t003"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/join_edit_t005"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_t004"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_blue1"
+        android:gravity="center"
+        android:text="@string/join_new_t004"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/join_edit_t006"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/join_edit_t005"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_blue1"
+        android:gravity="center"
+        android:text="@string/join_new_t005"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/join_edit_t007"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_blue1"
+        android:gravity="center"
+        android:text="編輯揪團內容"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/join_edit_check"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/join_edit_des"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/btn_ok"
+        android:text="@string/biker_join_deitteam"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titlesize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myname3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/myname30"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlesize"
+        android:visibility="invisible" />
+
+</RelativeLayout>
